@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    background: rgb(6, 6, 6);
+    background: linear-gradient(4deg, rgba(6, 6, 6, 0.711922268907563) 100%, rgba(80, 80, 80, 1) 100%, rgba(7, 9, 10, 0.8631827731092436) 100%, rgba(7, 9, 10, 0.8631827731092436) 100%, rgba(244, 246, 247, 1) 100%);
+    text-align: center;
+    color: white;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+h1 {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: white;
+}
+
+p {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: white;
+    font-size: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+a:link,
+a:hover {
+    color: white;
+}
+
+
+
+footer {
+    background: rgba(6, 6, 6, 0.74);
+    background: linear-gradient(4deg, rgba(6, 6, 6, 0.711922268907563) 100%, rgba(80, 80, 80, 1) 100%, rgba(7, 9, 10, 0.8631827731092436) 100%, rgba(7, 9, 10, 0.8631827731092436) 100%, rgba(244, 246, 247, 1) 100%);
+    text-align: center;
+    padding: 1.5em;
+    color: white;
+}
+
+.icons {
+    text-align: center;
+
+
+}
+
+.icons i {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: rgb(23, 23, 24);
+    background: linear-gradient(4deg, rgba(23, 23, 24, 0.8995973389355743) 100%, rgba(80, 80, 80, 1) 100%, rgba(7, 9, 10, 0.8631827731092436) 100%, rgba(7, 9, 10, 0.8631827731092436) 100%, rgba(244, 246, 247, 1) 100%);
+    border-radius: 0.5em;
+    margin: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}

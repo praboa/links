@@ -56,6 +56,12 @@ footer {
     color: white;
 }
 
+.latest{
+    height: 19em; 
+    width: 35em; 
+    padding-top: 1em;
+}
+
 .icons {
     text-align: center;
 
@@ -78,3 +84,13 @@ footer {
     margin-right: 2em;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .latest{
+        height: 11em; 
+        width: 18em; 
+        padding-top: 1em;
+    }
+  }
+
+/* for the latest work */
